@@ -40,7 +40,7 @@ function App() {
       }),
     };
 
-    // ✅ Show data below modal
+    // data below modal
     setResponseData(payload);
 
     try {
@@ -136,7 +136,7 @@ function App() {
         </div>
       )}
 
-      {/* ✅ Display sent data below modal */}
+      {/*sent data below modal */}
       {responseData && (
         <div className="response-box">
           <h3>Data sent to server:</h3>
